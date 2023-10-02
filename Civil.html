@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
+              <li><a href="#" class="nav-link px-2 link-body-emphasis">Inventory</a></li>
+              <li><a href="#" class="nav-link px-2 link-body-emphasis">Customers</a></li>
+              <li><a href="#" class="nav-link px-2 link-body-emphasis">Products</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            </form>
+    
+            <div class="dropdown text-end">
+              <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+              </a>
+              <ul class="dropdown-menu text-small">
+                <li><a class="dropdown-item" href="#">New project...</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </header>
+    <div class="my-container">
+        <div class="row">
+            <div class="col-md-7">
+                <h4 class="name-block">Ваши персонажи</h4>
+                <div class="row g-4">
+                    <div class="col-sm-4">
+                        <div class="character-container">
+                            <div class="character-card">
+                                <div class="character">
+                                    <figure class="character-avatar">
+                                        <img class="rounded-circle" alt="" src="./img/u1.jpg">
+                                    </figure>
+                                    <div class="character-info">
+                                        <p class="character-name">Name</p>
+                                        <p>Age</p>
+                                    </div>
+                                </div>
+                                <div class="Character-Status">
+                                    <p>Статус</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="character-container">
+                            <div class="character-card">
+                                <div class="character">
+                                    <figure class="character-avatar">
+                                        <img class="rounded-circle" alt="" src="./img/u1.jpg">
+                                    </figure>
+                                    <div class="character-info">
+                                        <p class="character-name">Name</p>
+                                        <p>Age</p>
+                                    </div>
+                                </div>
+                                <div class="Character-Status">
+                                    <p>Статус</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="character-container">
+                            <div class="character-card">
+                                <div class="character">
+                                    <figure class="character-avatar">
+                                        <img class="rounded-circle" alt="" src="./img/u1.jpg">
+                                    </figure>
+                                    <div class="character-info">
+                                        <p class="character-name">Name</p>
+                                        <p>Age</p>
+                                    </div>                                </div>
+                                <div class="Character-Status">
+                                    <p>Статус</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="character-container">
+                            <div class="character-card">
+                                <div class="character">
+                                    <figure class="character-avatar">
+                                        <img class="rounded-circle" alt="" src="./img/u1.jpg">
+                                    </figure>
+                                    <div class="character-info">
+                                        <p class="character-name">Name</p>
+                                        <p>Age</p>
+                                    </div>                                </div>
+                                <div class="Character-Status">
+                                    <p>Статус</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Send message">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h4 class="name-block">Создание вызова</h4>
+                <div class="row gx-4 call-block pt-5">
+                    <div class="col-md-6">
+                        <div class="form-floating mb-4">
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Jane" required="">
+                            <label for="form_name">First Name *</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating mb-4">
+                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Doe" required="">
+                            <label for="form_lastname">Last Name *</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating mb-4">
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="jane.doe@example.com" required="">
+                            <label for="form_email">Email *</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-select-wrapper mb-4">
+                            <select class="form-select" id="form-select" name="department" required="">
+                                <option selected="" disabled="" value="">Select a department</option>
+                                <option value="Sales">Sales</option>
+                                <option value="Marketing">Marketing</option>
+                                <option value="Customer Support">Customer Support</option>
+                            </select>
+                            <label for="form-select">Department *</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating mb-4">
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px" required=""></textarea>
+                            <label for="form_message">Message *</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Send message">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>

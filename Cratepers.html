@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создание персонажа</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="p-3 mb-3 header-style">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-2 link-body-emphasis logo-sir">SIRIUS:CAT</a></li>
+            </ul>
+            <ul class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 d-flex justify-content-center">
+                    <li>
+                        <a href="#" class="nav-link px-2 link-body-emphasis color-term">
+                                Terminal
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-2 link-body-emphasis color-civil">
+                                Civil
+                        </a>
+                    </li>
+            </ul>
+            <!-- col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 -->
+            <div class="text-end">
+              <a href="#" class="d-block link-body-emphasis text-decoration-none" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="mdo" width="50" height="50" class="rounded-circle">
+              </a>
+            </div>
+          </div>
+        </div>
+    </header>
+    <p class="text-center zag-text">Создание персонажа</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-8" style="height: 500px;">
+                <p class="pass-text">Паспортные данные</p>
+                <div class="row pass-cont">
+                    <div class="col">
+                        <form>
+                            <p class="form-text">Имя</p>
+                            <input type="text" class="form-input-pass">
+                            <p class="form-text">Фамииля</p>
+                            <input type="text" class="form-input-pass">
+                            <p class="form-text">Дата Рождения</p>
+                            <input type="date" class="form-input-pass">
+                            <p class="form-text">Место работы</p>
+                            <input type="text" class="form-input-pass">
+                            <p class="form-text">Номер телефона</p>
+                            <input class="form-input-pass">
+                            <p class="form-text">Раса</p>
+                            <input type="text" class="form-input-pass">
+                            <div class="col"></div>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <p class="form-text">Лицензии на вождения</p>
+                        <input type="text" class="form-input-pass">
+                        <p class="form-text">Лицензии на оружия</p>
+                        <input type="text" class="form-input-pass">
+                        <p class="form-text">Выбранные лицензии</p>
+                        <input type="text" class="form-input-pass" style="height: 90px;">
+                        <p class="form-text">Место жительства</p>
+                        <input type="text" class="form-input-pass">
+                       
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <p class="form-text">Вес</p>
+                                <input type="number" class="form-input-pass-ves">
+                            </div>
+                            <div class="col">
+                                <p class="form-text">Рост</p>
+                                <input type="number" class="form-input-pass-ves">
+                            </div>
+                        </div>
+                        <p class="form-text">Тип крови</p>
+                        <select name="type-blood" id="blood-select" class="selector-blood">
+                            <option value="type-1">I</option>
+                            <option value="type-2">II</option>
+                            <option value="type-3">III</option>
+                            <option value="type-4">IV</option>
+                          </select>
+                        <p class="form-text">Контакт на случай ЧС</p>
+                        <input type="text" class="form-input-pass">
+                        <p class="form-text">Информация по заболеванию</p>
+                        <textarea></textarea>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        
+            <div class="col-4">
+                <p class="pass-text">Автомобили</p>
+                <div class="container cars-form">
+                    <div class="row car-output">
+                        <div class="col">
+                                <p>Модель</p>
+                        </div>
+                        <div class="col text-center">
+                            <p>Цвет</p>
+                        </div>
+                        <div class="col text-end">
+                            <p>Номера</p>
+                        </div>
+                    </div>
+                    <div class="row car-output">
+                        <div class="col">
+                                <p>Модель</p>
+                        </div>
+                        <div class="col text-center">
+                            <p>Цвет</p>
+                        </div>
+                        <div class="col text-end">
+                            <p>Номера</p>
+                        </div>
+                    </div>
+                    <div class="row car-output">
+                        <div class="col">
+                                <p>Модель</p>
+                        </div>
+                        <div class="col text-center">
+                            <p>Цвет</p>
+                        </div>
+                        <div class="col text-end">
+                            <p>Номера</p>
+                        </div>
+                    </div>
+                    <div class="row car-output">
+                        <div class="col">
+                                <p>Модель</p>
+                        </div>
+                        <div class="col text-center">
+                            <p>Цвет</p>
+                        </div>
+                        <div class="col text-end">
+                            <p>Номера</p>
+                        </div>
+                    </div>
+                    <div class="row text-end mt-2">
+                        <div class="col">
+                            <button class="btn-add-car">Добавить автомобиль</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gun-output mt-2">
+                    <div class="col">
+                        <P class="text-gun">Оружие</P>
+                        <div class="container cars-form">
+                            <div class="row car-output">
+                                <div class="col">
+                                        <p>Модель</p>
+                                </div>
+                                
+                                <div class="col text-end">
+                                    <p>Номер</p>
+                                </div>
+                            </div>
+                            <div class="row text-end mt-2">
+                                <div class="col">
+                                    <button class="btn-add-car">Добавить оружие</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="add-create">Создать персонажа</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

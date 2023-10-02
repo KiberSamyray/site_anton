@@ -1,0 +1,233 @@
+
+
+
+.character {
+    display: flex;
+    align-items: center;
+}
+
+
+
+body {
+    background-color: #3F3D56;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.character-card {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex!important;
+    justify-content: space-between;
+    color: white;
+    align-items: center!important;
+    background-color: #27292D;
+    border-radius: 15px;
+
+}
+
+.character-container{
+    background-color: #27292D;
+    border-radius: 115px;
+}
+
+.character-avatar {
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    border-radius: 100%;
+}
+
+.character-info {
+    padding-left: 10px;
+}
+
+div {
+    display: block;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+figure img {
+    width: 100%;
+    max-width: 100%;
+    height: auto!important;
+}
+
+.character-name {
+    margin: 0;
+}
+
+.my-container {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.name-block {
+    color: white;
+}
+
+.call-block {
+    background-color: #27292D;
+}
+
+.my-terminal-container {
+    background-color: #27292D;
+}
+
+.button-status {
+    background-color: #3F3D56;
+    color: white;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.my-col-left {
+    margin-right: 35px;
+}
+
+.my-col-right {
+    margin-left: 35px;
+}
+
+.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 400px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.my-btn {
+    background-color: #8885AB;
+}
+.header-style{
+    background-color: #27292D;
+}
+.logo-sir{
+    color: white !important;
+    font-size: 20px;
+}
+.logo-sir:hover{
+    text-decoration: none;
+    color: #666 !important;
+    
+}
+.logo-sir:focus{
+    color: white !important;
+}
+.color-term{
+    color: #FF4F12 !important;
+    font-size: 20px;
+}
+.color-term:focus{
+    color: #FF4F12 !important;
+}
+.color-term:hover{
+    color: #FF4F12 !important;
+}
+.color-civil{
+color: #4BD0A0 !important;
+font-size: 20px;    
+}
+.color-civil:focus{
+    color: #4BD0A0 !important;
+}
+.color-civil:hover{
+    color: #4BD0A0 !important;
+}
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+  }
+  
+  ul {
+    margin-left: 0;
+    /* Отступ слева в браузере IE и Opera */
+    padding-left: 0;
+    /* Отступ слева в браузере Firefox, Safari, Chrome */
+  }
+  .zag-text{
+    font-size: 32px;
+    color: #ffffff;
+  }
+  .pass-text{
+    font-size: 16px;
+    color: #ffffff;
+  }
+  .form-text{
+    font-size: 16px;
+    color: #ffffff;
+  }
+  .form-input-pass{
+    background: #8885AB;
+    border: none;
+    color: #ffffff;
+    width: 220px;
+    height: 28px;
+  }
+  .form-input-pass:focus{
+    text-decoration: none;
+  }
+  .form-input-pass-ves{
+    width: 83px;
+    background: #8885AB;
+    border: none;
+    color: #ffffff;
+  }
+textarea{
+    background: #8885AB;
+}
+.pass-cont{
+    background-color: #27292D;
+    height: 450px;
+}
+.car-output{
+    background: #8885AB;
+    margin-top: 7px;
+    color: #ffffff;
+    
+}
+.car-output .p{
+    margin: 0;
+    padding: 0;
+}
+.cars-form{
+    background-color: #27292D;
+    width: 422px;
+    height: auto;
+}
+.btn-add-car{
+    width: 200px;
+height: 28px;
+color: #27292D;
+background-color: #4BD0A0;
+}
+.text-gun{
+    color: #ffffff;
+}
+.add-create{
+    background-color: #0085FF;
+    width: 166px;
+    height: 41px;
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+.selector-blood{
+    background-color: #8885AB;
+    width: 203px;
+    height: 28px;
+}
